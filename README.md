@@ -1,31 +1,69 @@
-# React & Tailwind CSS Starter Pack
+# StudyNotion – Full Stack EdTech Platform
 
-This is a starter pack for creating React projects with Tailwind CSS configured. It uses React version **18.2** and Tailwind CSS version **3.2**.
+StudyNotion is a full-stack EdTech web application designed to provide a seamless learning experience for students and instructors.  
+The platform supports course creation, enrollment, authentication, and role-based access with a scalable and modular architecture.
 
-## Usage
+---
 
-This starter pack includes a basic setup for using **Tailwind CSS with React**. To start building your own components and styles, follow these steps:
+## 🚀 Features
 
-1. Clone the repository to your local machine.
-    ```sh
-    git clone https://github.com/thepranaygupta/react-tailwind-css-starter-pack.git
-    ```
+- User Authentication & Authorization (JWT, Role-Based Access)
+- Student & Instructor Roles
+- Course Creation, Management & Enrollment
+- Secure REST APIs
+- Responsive and modern UI
+- Scalable backend architecture
 
-1. Install the required packages.
-    ```sh
-    cd react-tailwind-css-starter-pack
-    npm install
-    ```
+---
 
-1. Start the development server.
-    ```sh
-    npm start
-    ```
-1. Open the project in your browser at [`http://localhost:3000`](http://localhost:3000) to view your project.
-1. Create your React components and add your styles using Tailwind classes. You can also create new CSS files and import them into your components.
+## 🛠 Tech Stack
 
-The project is set up to use `postcss-cli` to process your CSS files. You can add your own `tailwind.config.js` file to customize your Tailwind setup.
+### Frontend
+- React.js (Hooks & Functional Components)
+- Redux Toolkit
+- Tailwind CSS
+- Responsive UI Design
 
-## Contributing
+### Backend
+- Node.js
+- Express.js
+- RESTful APIs
+- JWT Authentication
+- Role-Based Access Control (RBAC)
 
-Contributions are welcome! If you have any suggestions or find any issues, please feel free to open an issue or a pull request.
+### Database
+- MongoDB (Mongoose)
+
+### Tools & Platforms
+- Git & GitHub
+- Postman
+- VS Code
+
+---
+
+## 📁 Project Structure
+
+
+StudyNotion/
+│
+├── src/ # Frontend source code
+├── public/ # Static assets
+│
+├── Server/ # Backend source code
+│ ├── config/
+│ ├── controllers/
+│ ├── models/
+│ ├── routes/
+│ ├── middlewares/
+│ ├── utils/
+│ └── index.js
+│
+├── .gitignore
+├── package.json # Frontend dependencies
+├── README.md
+
+### Clone the repository
+
+    git clone https://github.com/gsantosh260402/StudyNotion---A-Full-Stack-LMS-Platform.git
+
+
