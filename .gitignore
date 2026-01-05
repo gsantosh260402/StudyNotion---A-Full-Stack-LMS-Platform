@@ -1,0 +1,21 @@
+# root node modules
+node_modules/
+
+# server node modules
+Server/node_modules/
+
+# env files
+.env
+Server/.env
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+
+# build files (optional)
+dist/
+build/
