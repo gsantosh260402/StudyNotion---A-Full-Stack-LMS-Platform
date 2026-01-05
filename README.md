@@ -46,21 +46,22 @@ The platform supports course creation, enrollment, authentication, and role-base
 
 StudyNotion/
 │
-├── src/ # Frontend source code
-├── public/ # Static assets
+├── src/                    # Frontend source code
+├── public/                 # Static assets
 │
-├── Server/ # Backend source code
-│ ├── config/
-│ ├── controllers/
-│ ├── models/
-│ ├── routes/
-│ ├── middlewares/
-│ ├── utils/
-│ └── index.js
+├── Server/                 # Backend source code
+│   ├── config/
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   ├── middlewares/
+│   ├── utils/
+│   └── index.js
 │
 ├── .gitignore
-├── package.json # Frontend dependencies
+├── package.json            # Frontend dependencies
 ├── README.md
+
 
 ### Clone the repository
 
